@@ -1,0 +1,120 @@
+/* Базові налаштування */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc; /* Дуже світлий сіро-синій відтінок */
+    color: #334155;
+}
+
+/* Навігація */
+.custom-navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+}
+.logo-icon {
+    background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+/* Картки (Контейнери) */
+.modern-card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    border: 1px solid #f1f5f9;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.modern-card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
+}
+.card-header-custom {
+    padding: 1.25rem 1.5rem;
+    background-color: #f8fafc;
+    border-bottom: 1px solid #f1f5f9;
+}
+.card-body-custom {
+    padding: 1.5rem;
+}
+
+/* Інпути та Кнопки */
+.custom-input {
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    padding: 0.6rem 1rem;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.01);
+}
+.custom-input:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 0.25rem rgba(99, 102, 241, 0.15);
+}
+.btn-primary-custom {
+    background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.btn-primary-custom:hover {
+    background: linear-gradient(135deg, #4f46e5 0%, #4338ca 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
+/* Таблиця */
+.custom-table {
+    --bs-table-bg: transparent;
+}
+.custom-table thead th {
+    background-color: #f8fafc;
+    color: #64748b;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #e2e8f0;
+    padding: 1rem;
+}
+.custom-table tbody td {
+    padding: 1rem;
+    color: #475569;
+    border-bottom: 1px solid #f1f5f9;
+}
+.custom-table tbody tr:hover {
+    background-color: #f8fafc;
+}
+
+/* Кнопки дій в таблиці */
+.action-btn {
+    border-radius: 6px;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+.edit-btn {
+    color: #0ea5e9;
+    background-color: #e0f2fe;
+    border: none;
+}
+.edit-btn:hover {
+    background-color: #bae6fd;
+    color: #0369a1;
+}
+.delete-btn {
+    color: #ef4444;
+    background-color: #fee2e2;
+    border: none;
+}
+.delete-btn:hover {
+    background-color: #fecaca;
+    color: #b91c1c;
+}

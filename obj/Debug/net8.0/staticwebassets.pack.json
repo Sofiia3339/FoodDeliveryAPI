@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/macbook/FoodDeliveryAPI/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/macbook/FoodDeliveryAPI/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/macbook/FoodDeliveryAPI/wwwroot/js/lab2.js",
+      "PackagePath": "staticwebassets/js/lab2.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.FoodDeliveryAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.FoodDeliveryAPI.props",
+      "PackagePath": "build\\FoodDeliveryAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.FoodDeliveryAPI.props",
+      "PackagePath": "buildMultiTargeting\\FoodDeliveryAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.FoodDeliveryAPI.props",
+      "PackagePath": "buildTransitive\\FoodDeliveryAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

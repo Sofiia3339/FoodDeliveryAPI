@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery API | Адмін-панель</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg custom-navbar mb-4 shadow-sm">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+                <div class="logo-icon"><i class="bi bi-box-seam"></i></div>
+                <span>FoodDelivery Admin</span>
+            </a>
+            <div class="d-flex align-items-center gap-3 text-secondary">
+                <span><i class="bi bi-person-circle fs-4"></i></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid px-4">
+        <div class="row g-4">
+            
+            <div class="col-lg-4 col-xl-3">
+                
+                <div class="modern-card">
+                    <div class="card-header-custom">
+                        <h6 class="mb-0 fw-bold"><i class="bi bi-plus-circle me-2"></i>Нова категорія</h6>
+                    </div>
+                    <div class="card-body-custom">
+                        <form action="javascript:void(0);" onsubmit="addCategory()">
+                            <div class="mb-3">
+                                <label for="add-name" class="form-label text-muted small fw-semibold">НАЗВА КАТЕГОРІЇ</label>
+                                <input type="text" class="form-control custom-input" id="add-name" placeholder="Напр.: Десерти" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary-custom w-100">
+                                Створити категорію
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="modern-card mt-4 edit-card" id="editForm" style="display: none;">
+                    <div class="card-header-custom bg-warning-subtle text-warning-emphasis">
+                        <h6 class="mb-0 fw-bold"><i class="bi bi-pencil-square me-2"></i>Редагування</h6>
+                    </div>
+                    <div class="card-body-custom">
+                        <form action="javascript:void(0);" onsubmit="updateCategory()">
+                            <input type="hidden" id="edit-id">
+                            <div class="mb-3">
+                                <label for="edit-name" class="form-label text-muted small fw-semibold">НОВА НАЗВА</label>
+                                <input type="text" class="form-control custom-input" id="edit-name" required>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <button type="button" class="btn btn-light w-50" onclick="closeInput()">Скасувати</button>
+                                <button type="submit" class="btn btn-primary-custom w-50">Зберегти</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8 col-xl-9">
+                <div class="modern-card">
+                    <div class="card-header-custom d-flex justify-content-between align-items-center bg-white border-bottom">
+                        <h5 class="mb-0 fw-bold">Список категорій</h5>
+                        <button class="btn btn-sm btn-outline-secondary" onclick="getCategories()">
+                            <i class="bi bi-arrow-clockwise"></i> Оновити
+                        </button>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table custom-table align-middle mb-0">
+                            <thead>
+                                <tr>
+                                    <th width="10%" class="ps-4">ID</th>
+                                    <th width="60%">Назва категорії</th>
+                                    <th width="30%" class="text-end pe-4">Дії</th>
+                                </tr>
+                            </thead>
+                            <tbody id="categories">
+                                <tr>
+                                    <td colspan="3" class="text-center py-5 text-muted">
+                                        <div class="spinner-border spinner-border-sm text-primary me-2" role="status"></div>
+                                        Завантаження даних...
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header border-0 text-white" id="toastHeader">
+                <i class="bi bi-info-circle me-2" id="toastIcon"></i>
+                <strong class="me-auto" id="toastTitle">Сповіщення</strong>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body bg-white" id="toastMessage">
+                Повідомлення.
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/lab2.js"></script>
+    <script>getCategories();</script>
+</body>
+</html>

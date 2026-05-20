@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "yqa/RwSMnp8N/0bKHyzRvQtzm7t/X+HxcXuguPcpKTg=",
+  "Hash": "kCpPia9sXWOJyviQAg6oi8FK8qxyAlV5tPNRGIYFK/o=",
   "Source": "FoodDeliveryAPI",
   "BasePath": "_content/FoodDeliveryAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "FoodDeliveryAPI/wwwroot",
+      "Source": "FoodDeliveryAPI",
+      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "BasePath": "_content/FoodDeliveryAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/macbook/FoodDeliveryAPI/wwwroot/css/site.css",
+      "SourceId": "FoodDeliveryAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "BasePath": "_content/FoodDeliveryAPI",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/Users/macbook/FoodDeliveryAPI/wwwroot/index.html",
+      "SourceId": "FoodDeliveryAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "BasePath": "_content/FoodDeliveryAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/macbook/FoodDeliveryAPI/wwwroot/js/lab2.js",
+      "SourceId": "FoodDeliveryAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "BasePath": "_content/FoodDeliveryAPI",
+      "RelativePath": "js/lab2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/lab2.js"
+    }
+  ]
 }
