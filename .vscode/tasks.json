@@ -1,0 +1,101 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "Library/Application Support/Code/User/workspaceStorage/57f19b8ee3e4e16a48924fd28d1c6ff1/ms-dotnettools.csdevkit/FoodDeliveryAPI.sln",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "Library/Application Support/Code/User/workspaceStorage/57f19b8ee3e4e16a48924fd28d1c6ff1/ms-dotnettools.csdevkit/FoodDeliveryAPI.sln",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "--project",
+                "Library/Application Support/Code/User/workspaceStorage/57f19b8ee3e4e16a48924fd28d1c6ff1/ms-dotnettools.csdevkit/FoodDeliveryAPI.sln"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "type": "docker-build",
+            "label": "docker-build: debug",
+            "dependsOn": [
+                "build"
+            ],
+            "dockerBuild": {
+                "tag": "fooddeliveryapi:dev",
+                "target": "base",
+                "dockerfile": "${workspaceFolder}/Dockerfile",
+                "context": "${workspaceFolder}",
+                "pull": true
+            },
+            "netCore": {
+                "appProject": "${workspaceFolder}/FoodDeliveryAPI.csproj"
+            }
+        },
+        {
+            "type": "docker-build",
+            "label": "docker-build: release",
+            "dependsOn": [
+                "build"
+            ],
+            "dockerBuild": {
+                "tag": "fooddeliveryapi:latest",
+                "dockerfile": "${workspaceFolder}/Dockerfile",
+                "context": "${workspaceFolder}",
+                "platform": {
+                    "os": "linux",
+                    "architecture": "amd64"
+                },
+                "pull": true
+            },
+            "netCore": {
+                "appProject": "${workspaceFolder}/FoodDeliveryAPI.csproj"
+            }
+        },
+        {
+            "type": "docker-run",
+            "label": "docker-run: debug",
+            "dependsOn": [
+                "docker-build: debug"
+            ],
+            "dockerRun": {},
+            "netCore": {
+                "appProject": "${workspaceFolder}/FoodDeliveryAPI.csproj",
+                "enableDebugging": true
+            }
+        },
+        {
+            "type": "docker-run",
+            "label": "docker-run: release",
+            "dependsOn": [
+                "docker-build: release"
+            ],
+            "dockerRun": {},
+            "netCore": {
+                "appProject": "${workspaceFolder}/FoodDeliveryAPI.csproj"
+            }
+        }
+    ]
+}
