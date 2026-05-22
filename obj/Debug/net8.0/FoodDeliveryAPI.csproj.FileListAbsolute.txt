@@ -283,3 +283,11 @@
 /Users/macbook/FoodDeliveryAPI/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
 /Users/macbook/FoodDeliveryAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
 /Users/macbook/FoodDeliveryAPI/bin/Debug/net8.0/FoodDeliveryAPI.staticwebassets.runtime.json
+/Users/macbook/FoodDeliveryAPI/bin/Debug/net8.0/ClosedXML.dll
+/Users/macbook/FoodDeliveryAPI/bin/Debug/net8.0/ClosedXML.Parser.dll
+/Users/macbook/FoodDeliveryAPI/bin/Debug/net8.0/DocumentFormat.OpenXml.dll
+/Users/macbook/FoodDeliveryAPI/bin/Debug/net8.0/DocumentFormat.OpenXml.Framework.dll
+/Users/macbook/FoodDeliveryAPI/bin/Debug/net8.0/ExcelNumberFormat.dll
+/Users/macbook/FoodDeliveryAPI/bin/Debug/net8.0/RBush.dll
+/Users/macbook/FoodDeliveryAPI/bin/Debug/net8.0/SixLabors.Fonts.dll
+/Users/macbook/FoodDeliveryAPI/bin/Debug/net8.0/System.IO.Packaging.dll

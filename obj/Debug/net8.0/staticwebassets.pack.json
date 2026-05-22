@@ -1,16 +1,48 @@
 {
   "Files": [
     {
+      "Id": "/Users/macbook/FoodDeliveryAPI/wwwroot/client.html",
+      "PackagePath": "staticwebassets/client.html"
+    },
+    {
+      "Id": "/Users/macbook/FoodDeliveryAPI/wwwroot/courier.html",
+      "PackagePath": "staticwebassets/courier.html"
+    },
+    {
       "Id": "/Users/macbook/FoodDeliveryAPI/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/macbook/FoodDeliveryAPI/wwwroot/dishes.html",
+      "PackagePath": "staticwebassets/dishes.html"
     },
     {
       "Id": "/Users/macbook/FoodDeliveryAPI/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },
     {
+      "Id": "/Users/macbook/FoodDeliveryAPI/wwwroot/js/auth.js",
+      "PackagePath": "staticwebassets/js/auth.js"
+    },
+    {
+      "Id": "/Users/macbook/FoodDeliveryAPI/wwwroot/js/client.js",
+      "PackagePath": "staticwebassets/js/client.js"
+    },
+    {
+      "Id": "/Users/macbook/FoodDeliveryAPI/wwwroot/js/courier.js",
+      "PackagePath": "staticwebassets/js/courier.js"
+    },
+    {
+      "Id": "/Users/macbook/FoodDeliveryAPI/wwwroot/js/dishes.js",
+      "PackagePath": "staticwebassets/js/dishes.js"
+    },
+    {
       "Id": "/Users/macbook/FoodDeliveryAPI/wwwroot/js/lab2.js",
       "PackagePath": "staticwebassets/js/lab2.js"
+    },
+    {
+      "Id": "/Users/macbook/FoodDeliveryAPI/wwwroot/login.html",
+      "PackagePath": "staticwebassets/login.html"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.FoodDeliveryAPI.Microsoft.AspNetCore.StaticWebAssets.props",

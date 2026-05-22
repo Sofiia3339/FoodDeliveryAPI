@@ -19,7 +19,12 @@
                 <span>FoodDelivery Admin</span>
             </a>
             <div class="d-flex align-items-center gap-3 text-secondary">
-                <span><i class="bi bi-person-circle fs-4"></i></span>
+                <button onclick="downloadReport()" class="btn btn-success btn-sm d-flex align-items-center gap-1 shadow-sm">
+                    <i class="bi bi-file-earmark-excel-fill"></i> Експорт Excel
+                </button>
+                
+                <a href="dishes.html" class="btn btn-outline-primary btn-sm">Страви</a>
+                <button onclick="logout()" class="btn btn-outline-danger btn-sm">Вийти</button>
             </div>
         </div>
     </nav>

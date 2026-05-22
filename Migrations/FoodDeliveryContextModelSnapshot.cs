@@ -170,6 +170,28 @@ namespace FoodDeliveryAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("OrderStatuses");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            StatusName = "Нове"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            StatusName = "В дорозі"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            StatusName = "Доставлено"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            StatusName = "Проблема"
+                        });
                 });
 
             modelBuilder.Entity("FoodDeliveryAPI.Models.User", b =>

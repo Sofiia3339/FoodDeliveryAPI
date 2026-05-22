@@ -150,3 +150,13 @@ function _displayCategories(data) {
 
     categories = data;
 }
+
+function downloadReport() {
+    
+    window.open('api/Reports/export', '_blank');
+}
+
+function logout() {
+    localStorage.removeItem('currentUser');
+    window.location.href = 'login.html';
+}

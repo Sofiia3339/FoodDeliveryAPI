@@ -32,6 +32,13 @@ namespace FoodDeliveryAPI.Data
                 .WithMany(u => u.CourierOrders)
                 .HasForeignKey(o => o.CourierId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<OrderStatus>().HasData(
+                new OrderStatus { Id = 1, StatusName = "Нове" },
+                new OrderStatus { Id = 2, StatusName = "В дорозі" },
+                new OrderStatus { Id = 3, StatusName = "Доставлено" },
+                new OrderStatus { Id = 4, StatusName = "Проблема" }
+            );
         }
     }
 }
