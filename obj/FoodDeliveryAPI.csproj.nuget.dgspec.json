@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/macbook/FoodDeliveryAPI/FoodDeliveryAPI.csproj": {}
+    "/Users/macbook/lab2_istatp/FoodDeliveryAPI/FoodDeliveryAPI.csproj": {}
   },
   "projects": {
-    "/Users/macbook/FoodDeliveryAPI/FoodDeliveryAPI.csproj": {
+    "/Users/macbook/lab2_istatp/FoodDeliveryAPI/FoodDeliveryAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/macbook/FoodDeliveryAPI/FoodDeliveryAPI.csproj",
+        "projectUniqueName": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/FoodDeliveryAPI.csproj",
         "projectName": "FoodDeliveryAPI",
-        "projectPath": "/Users/macbook/FoodDeliveryAPI/FoodDeliveryAPI.csproj",
+        "projectPath": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/FoodDeliveryAPI.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Users/macbook/FoodDeliveryAPI/obj/",
+        "outputPath": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.nuget/NuGet/NuGet.Config"

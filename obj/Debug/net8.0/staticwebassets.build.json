@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6oybPFzb2SyKs7ngjZUy4LFhQoS7OtWKm44K7H/rvUM=",
+  "Hash": "0pbOKKMwq4gVlFv1xpgCdgW6EedJ4TzHa6Wj2IS+iYA=",
   "Source": "FoodDeliveryAPI",
   "BasePath": "_content/FoodDeliveryAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "FoodDeliveryAPI/wwwroot",
       "Source": "FoodDeliveryAPI",
-      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "ContentRoot": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/",
       "BasePath": "_content/FoodDeliveryAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/macbook/FoodDeliveryAPI/wwwroot/client.html",
+      "Identity": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/client.html",
       "SourceId": "FoodDeliveryAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "ContentRoot": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/",
       "BasePath": "_content/FoodDeliveryAPI",
       "RelativePath": "client.html",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot/client.html"
     },
     {
-      "Identity": "/Users/macbook/FoodDeliveryAPI/wwwroot/courier.html",
+      "Identity": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/courier.html",
       "SourceId": "FoodDeliveryAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "ContentRoot": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/",
       "BasePath": "_content/FoodDeliveryAPI",
       "RelativePath": "courier.html",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot/courier.html"
     },
     {
-      "Identity": "/Users/macbook/FoodDeliveryAPI/wwwroot/css/site.css",
+      "Identity": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/css/site.css",
       "SourceId": "FoodDeliveryAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "ContentRoot": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/",
       "BasePath": "_content/FoodDeliveryAPI",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/macbook/FoodDeliveryAPI/wwwroot/dishes.html",
+      "Identity": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/dishes.html",
       "SourceId": "FoodDeliveryAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "ContentRoot": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/",
       "BasePath": "_content/FoodDeliveryAPI",
       "RelativePath": "dishes.html",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot/dishes.html"
     },
     {
-      "Identity": "/Users/macbook/FoodDeliveryAPI/wwwroot/index.html",
+      "Identity": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/index.html",
       "SourceId": "FoodDeliveryAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "ContentRoot": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/",
       "BasePath": "_content/FoodDeliveryAPI",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "/Users/macbook/FoodDeliveryAPI/wwwroot/js/auth.js",
+      "Identity": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/js/auth.js",
       "SourceId": "FoodDeliveryAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "ContentRoot": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/",
       "BasePath": "_content/FoodDeliveryAPI",
       "RelativePath": "js/auth.js",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/js/auth.js"
     },
     {
-      "Identity": "/Users/macbook/FoodDeliveryAPI/wwwroot/js/client.js",
+      "Identity": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/js/client.js",
       "SourceId": "FoodDeliveryAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "ContentRoot": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/",
       "BasePath": "_content/FoodDeliveryAPI",
       "RelativePath": "js/client.js",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot/js/client.js"
     },
     {
-      "Identity": "/Users/macbook/FoodDeliveryAPI/wwwroot/js/courier.js",
+      "Identity": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/js/courier.js",
       "SourceId": "FoodDeliveryAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "ContentRoot": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/",
       "BasePath": "_content/FoodDeliveryAPI",
       "RelativePath": "js/courier.js",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot/js/courier.js"
     },
     {
-      "Identity": "/Users/macbook/FoodDeliveryAPI/wwwroot/js/dishes.js",
+      "Identity": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/js/dishes.js",
       "SourceId": "FoodDeliveryAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "ContentRoot": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/",
       "BasePath": "_content/FoodDeliveryAPI",
       "RelativePath": "js/dishes.js",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot/js/dishes.js"
     },
     {
-      "Identity": "/Users/macbook/FoodDeliveryAPI/wwwroot/js/lab2.js",
+      "Identity": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/js/lab2.js",
       "SourceId": "FoodDeliveryAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "ContentRoot": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/",
       "BasePath": "_content/FoodDeliveryAPI",
       "RelativePath": "js/lab2.js",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot/js/lab2.js"
     },
     {
-      "Identity": "/Users/macbook/FoodDeliveryAPI/wwwroot/login.html",
+      "Identity": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/login.html",
       "SourceId": "FoodDeliveryAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/macbook/FoodDeliveryAPI/wwwroot/",
+      "ContentRoot": "/Users/macbook/lab2_istatp/FoodDeliveryAPI/wwwroot/",
       "BasePath": "_content/FoodDeliveryAPI",
       "RelativePath": "login.html",
       "AssetKind": "All",
